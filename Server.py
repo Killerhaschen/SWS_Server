@@ -202,7 +202,7 @@ def portdel(PORT):
 
 def connect():
     global HOST
-    global BAKCLOG
+    global BACKLOG
     PORTx = 6666
     sockel = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sockel.bind((HOST,PORTx))
