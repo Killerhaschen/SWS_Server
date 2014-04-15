@@ -184,6 +184,7 @@ def save():                             ##speichert daten in log.txt
 
 def portgen():
     global PORTS
+    print("ports0",PORTS)
     while True:
         p = random.randint(6666,6676)
         if not p in PORTS:
