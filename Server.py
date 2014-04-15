@@ -229,6 +229,7 @@ def connect():
 
 
 def mainwt(PORT,event):
+    print("MAIN",PORT)
     global HOST
     global BAKCLOG
     PORT = int(PORT)
