@@ -230,8 +230,6 @@ def connect():
 def mainwt(PORT,event):
     global HOST
     global BAKCLOG
-    event.set()
-    event.wait()
     PORT = int(PORT)
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.bind((HOST,PORT))
