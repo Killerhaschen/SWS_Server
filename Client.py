@@ -10,7 +10,7 @@ PORT = 6666
 
 user = "Heino"
 pwrt = "blah"
-key = "ABCD"
+key = "ABCDEF"
 mapp = "WSWSWSWSSWSWW"
 
 ################################################################################
